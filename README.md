@@ -4,6 +4,8 @@ This project is a Laravel Passport Authentication api that validates a user's na
 
 It also has an email verification feature on the registration endpoint.
 
+This project is hosted on a digitalocean droplet and is running in an Ubuntu/Nginx server.
+
 ### The following endpoints are available in the application
 
 - `GET / `
@@ -31,6 +33,7 @@ This project was built with the popular Laravel (PHP) framework
 - Set up a mail client for registeration OTP
 - Run `php artisan key:generate`
 - Run `php artisan migrate`
+- Run `php artisan passport:install`
 
 
 ## Testing
@@ -41,3 +44,6 @@ After running the application, you can test the various endpoints provided using
 
 For quick setup on postman, here is a link to a postman collection containing all the endpoints
 :https://www.getpostman.com/collections/859a8538f68203ecd486
+
+Development server is accessible via
+:http://137.184.154.42
